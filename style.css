@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  background-color: #000;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(180deg, #db302a 0%, #62186b 100%) no-repeat;
+}
+
+
+.wrapper {
+    text-align: center;
+}
+/*forward button*/
+.button1 {
+  position: absolute;
+  top: 30%;
+	left:48%;
+  width:120px;
+  height:50px;
+	font-size: 26px;
+  transition-duration: 0.4s;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  border: 2px solid #000000;
+}
+/*backward button*/
+.button2 {
+  position: absolute;
+  top: 45%;
+	left:48%;
+  width:120px;
+  height:50px;
+  font-size: 26px;
+  transition-duration: 0.4s;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  border: 2px solid #000000;
+}
+/*left button*/
+.button3 {
+  position: absolute;
+  top: 37%;
+	left:41%;
+  width:120px;
+  height:50px;
+	font-size: 26px;
+  transition-duration: 0.4s;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  border: 2px solid #000000;
+}
+/*right button*/
+.button4 {
+  position: absolute;
+  top: 37%;
+	left:55%;
+  width:120px;
+  height:50px;
+	font-size: 26px;
+  transition-duration: 0.4s;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  border: 2px solid #000000;
+}
+
+/*stop button*/
+.button5 {
+  position: absolute;
+  top: 37%;
+	left:48%;
+  width:120px;
+  height:50px;
+	font-size: 26px;
+  transition-duration: 0.4s;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  border: 2px solid #000000;
+}
+
+
+.button1:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.button2:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.button3:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.button4:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.button5:hover {
+  background-color: #000000;
+  color: white;
+}

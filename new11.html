@@ -1,0 +1,57 @@
+<?php
+     include_one 'includes/directionsPHP.php';
+?>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+			<meta charset="utf-8">
+
+<style>
+			h1 {text-align: center;}
+
+		</style>
+
+			<title>Robot Control Panel</title>
+
+			<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+            <body text = "white">
+			<!-- Heading -->
+			<h1>  لوحة التحكم بذراع الروبوت </h1>
+
+			<form action = "directionsPHP.php" method="POST">
+
+
+
+
+<div class="wrapper">
+    <button class="button1" name="forward" value="forward" >forward</button>
+</div>
+
+<div class="wrapper" >
+ <button class="button2" name="backward" value="backward" >backward</button>
+</div>
+
+<div class="wrapper" >
+ <button class="button3" name="left" value="left" >left</button>
+</div>
+
+<div class="wrapper" >
+ <button class="button4" name="right" value="right" >right</button>
+</div>
+
+<div class="wrapper" >
+ <button class="button5" name="stop" value="stop" >stop</button>
+</div>
+
+
+
+
+ </form>
+
+
+</body>
+</html>
